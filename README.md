@@ -23,13 +23,11 @@ Create an venv or conda environment and install the following packages:
 *    sentence-transformers
 *    bitsandbytes
 *    datasets
-*    flash-attn
+*    kernels
 *    liger-kernel
 *    peft
 *    trl
 *    unsloth
-
-`flash-attn` should be installed with the option `--no-build-isolation`.
 
 Of course, you can also Use the supplied `requirements.txt`, but some dependencies might be outdated.
 
@@ -51,7 +49,7 @@ documentation (or run it later).
 
 ### Similarity (embedding) finetuning
 * [21-sbert-finetune.ipynb: Finetune a sentence BERT (similiarity) model](21-sbert-finetune.ipynb)
-* [22-create-sbert-data-qwen-reranker.ipynb: Optimize the dataset used for finetuning by using a reranker](22-create-sbert-data-qwen-reranker.ipynb)
+* [22a-create-sbert-data-zeroentropy-reranker.ipynb: Optimize the dataset used for finetuning by using a reranker](22a-create-sbert-data-zeroentropy-reranker.ipynb)
 * [23-sbert-finetune-qwen-reranker.ipynb: Finetune the similarity model again using the optimized dataset](23-sbert-finetune-qwen-reranker.ipynb)
 
 ### Generative model finetuning
