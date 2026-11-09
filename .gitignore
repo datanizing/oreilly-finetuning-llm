@@ -1,0 +1,11 @@
+.ipynb_checkpoints
+ModernSBERT*
+*.parquet
+models
+old
+runs
+*.npy
+*.usearch
+smol-ai
+tantivy-index
+unsloth_compiled_cache

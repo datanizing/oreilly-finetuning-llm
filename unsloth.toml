@@ -1,0 +1,22 @@
+[project]
+name = "unsloth-env"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Christian Winkler", email = "christian.winkler@datanizing.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "ipywidgets>=8.1.9",
+    "unsloth>=2026.10.7",
+    "vllm>=0.32.0",
+]
+
+[project.scripts]
+unsloth-env = "unsloth_env:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
